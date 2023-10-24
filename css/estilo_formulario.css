@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body{
+    color: #8b8f96;
+    background-image: linear-gradient(to right top, #8b8f96, #959ca5, #9fa8b4, #a8b6c4, #b1c3d3);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1, p, label, input{
+    color: black;
+}
+
+h1{
+    font-family: "Alkatra";
+    font-size: 60px;
+}
+
+form{
+    font-size: 30px;
+}

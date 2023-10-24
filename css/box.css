@@ -1,0 +1,43 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 450px; /* vw pega a tela inteira*/
+    height:600px;
+    /* gap:32px; */
+    flex-direction: row;
+    justify-content: ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*se quiser um espaçamento calculado e perfeito pode usar o justify-content: space*/
+/*gap significa intervalo e ao inves de usar margin na div "filha" se usa gap na div "pai"*/
+/*gap estatico, space é dinamico*/
+/*mdn é o manual e tem sobre flex box*/
+.caixa{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+
+}
+
+/* .c1{
+    order: 1;
+    align-self: center; /*esse serve para mexer so essa caixa*/
+}
+
+/* .c2{
+    order: 2;
+}
+
+.c3{
+    order: 3;
+}
+
+.c4{
+    order: 4;
+}
+ */

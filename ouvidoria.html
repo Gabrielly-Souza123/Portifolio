@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario">
+    <meta name="keywords" content="Gabrielly, Aulas.">
+    <meta name="author" content="Gabrielly Machado">
+    <title>Ouvidoria</title>
+    <style>
+        p {
+            color: fuchsia;
+        }
+    </style>
+    <!--o style dentro de head muda a cor do site todo-->
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <!--isso é para linkar o site do css para o html, stylesheet folha de estilo-->
+</head>
+<body>
+    <h1>1DS3</h1>
+        <h2>Identifique-se</h2>
+        <p>Com suas informações entraremos em contato e informaremos sobre o andamento.</p>
+    
+
+    <form action="" method="get">
+
+    <h3> Informações de Contato</h3>
+    <p>O seu elogio é sigiloso?</pbr>
+    <strong><em>Optar pelo sigilo significa que seus dados somente serão vistos pela Ouvidoria.</em></strong><br>
+        <input type="radio" name="resposta" id="sim" value="sim"/>
+        <label for="sim">SIM</label> 
+        <input type="radio" name="resposta" id="nao" value="nao"/></p>
+
+<p><label for="nomeCompleto">Nome Completo:</label><br>
+        <input type="text" name="nomeCompleto" id="nome"><br> 
+
+        <label for="nomeSocial">Nome Social:</label><br>
+        <input type="text" name="nomeSocial" id="nome"></p> 
+
+        <h3>Identifição</h3>
+        <p><input type="radio" name="pessoa" id="pessoa" value="pessoa"/>
+        <label for="pessoa">Pessoa Fisica</label> 
+        <input type="radio" name="pessoa" id="pessoaJuridica" value="pessoaJuridica"/>
+        <label for="pessoa">Pessoa Juridica</label><br></p>
+
+        <P><label for="CPF/CNPJ">CPF/CNPJ</label>
+        <input type="text" name="CPF/CNPJ" id="CPF/CNPJ"> </P>
+
+        <P><label for="RG/RNE">RG/RNE</label>
+        <input type="text" name="RG/RNE" id="RG/RNE"></P>
+
+        <P><label for="email">Seu email</label>
+        <input type="email" name="email" id="email" placeholder="aaaaaa@email.com"><br> 
+        </P>
+
+        <P><label for="c-email">Confime seu Email</label>
+        <input type="email" name="c-email" id="c-email" placeholder="aaaaa@email.com"><br> 
+        </P>
+
+        <P><label for="telefone">Telefone</label>
+        <input type="text" name="telefone" id="telefone" placeholder="(00) 00000-00000"><br> 
+        </P>
+        <!--placehoder faz aparecer um exemplo no site-->
+        
+        <P><label for="celular">Celular</label>
+        <input type="text" name="celular" id="celular"><br> 
+        </P>
+
+        <P><label for="cep">CEP</label>
+        <input type="text" name="cep" id="cep"><br> 
+        </P>
+
+        <P><label for="logradouro">Logradouro</label>
+        <input type="text" name="logradouro" id="logradouro"><br> 
+        </P>
+
+        <P><label for="numero">Numero</label>
+        <input type="number" name="numero" id="numero"><br> 
+        </P>
+
+        <P><label for="complementar">Complementar</label>
+        <input type="text" name="complementar" id="complementar"><br> 
+        </P>
+
+        <P><label for="bairro">Bairro</label>
+        <input type="text" name="bairro" id="bairro"><br> 
+        </P>
+
+        <P><label for="cidade">Cidade</label>
+        <input type="text" name="cidade" id="cidade"><br> 
+        </P>
+    
+        <p> <label for="estado">Estado </label>
+            <select id="estado" name="estado">
+                <option value=""selected disabled>selecione uma opção</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select></p>
+
+        <h3>Os campos a seguir são opcionais e contribuirão para traçar o perfil dos usuários.</h3>
+
+        <p><label for="dataNascimento">Sua data de nascimento:</label><br>
+        <input type="date" name="dataNascimento" id="dataNascimento"><br>
+        </p>
+
+        <p> <label>Sexo</label> <br>
+            <input type="radio" name="sexo" id="masc" value="masc"/>
+            <label for="masc">Masculino</label> <br>
+            <input type="radio" name="sexo" id="fem" value="fem"/>
+            <label for="fem">Feminino</label><br>
+            <input type="radio" name="sexo" id="trans" value="trans"/>
+            <label for="trans">Transgênero</label><br>
+            <input type="radio" name="sexo" id="ind" value="ind" checked /> 
+            <label for="ind">Não desejo responder</label><br> 
+        </p>
+
+        <p> <label>Cor/Raça</label> <br>
+            <input type="radio" name="cor" id="branca" value="branca"/>
+            <label for="branca">Branca</label> <br>
+            <input type="radio" name="cor" id="preta" value="preta"/>
+            <label for="preta">preta</label><br>
+            <input type="radio" name="cor" id="amarela" value="amarela"/>
+            <label for="amarela">Amarela</label><br>
+            <input type="radio" name="cor" id="parda" value="parda" checked /> 
+            <label for="parda">Parda</label> <br>
+            <input type="radio" name="cor" id="indigena" value="indigena" /> 
+            <label for="indigena">Indígena</label><br> 
+        </p>
+
+        <p> <label for="ocupacao">Ocupação </label>
+            <select id="ocupacao" name="ocupacao">
+            <option value=""selected disabled>Selecione...</option>
+            <option value="emp">Empregado-Setor privado</option>
+            <option value="apoPri">Aposentado- Setor privado</option>
+            <option value="apoPub">Aposentado- Setor público</option>
+            <option value="penPri">Pensionista- Setor privado</option>
+            <option value="penPub">Pensionista- Setor público</option>
+            <option value="desNaoTemTrab">Desempregado- Não tem trabalho</option>
+            <option value="desProTrab">Desempregado- Pessoa que procura trabalho</option>
+            <option value="informal">Trabalha com vínculo informal</option>
+            <option value="est">Estudante</option>
+            <option value="naoDecla">Não Declaração</option>
+            <option value="outSit">Outra Situação</option>
+            <option value="servPub">Servidor Público</option>
+            <option value="docente">Docente</option>
+            <option value="empregador">Empregador</option>
+        </select></p>
+
+        <p> <label for="formacao">Formação </label>
+            <select id="formacao" name="formacao">
+                <option value=""selected disabled>Selecione...</option>
+                <option value="analf">Analfabeto</option>
+                <option value="lerEescreve">Sabe ler e escrever</option>
+                <option value="fund1e2">Fundamental - 1a à 2a séries</option>
+                <option value="fund5e8">Fundamental - 5a à 8a séries</option>
+                <option value="EM">Ensino médio</option>
+                <option value="supComp">Superior Completo</option>
+                <option value="supInc">Superior Incompleto</option>
+                <option value="naoInf">Não Informada</option>
+                <option value="posGra">Pós Graduado</option>
+                <option value="mest">Mestrado</option>
+                <option value="dout">Doutorado</option>
+                <option value="est2">Estudante</option>
+            </select></p>
+                
+                    
+        
+
+
+
+
+        <input type="reset" value="Apagar"> 
+        <input type="submit" name="enviar" id="enviar">
+
+</form>
+</body>
+</html>

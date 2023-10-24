@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+
+body{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    text-align: center;
+}
+
+h1{
+    font-family: "Alkatra";
+    font-size: 100px;
+}
+
+p {
+    font-size: 35px;
+    font-family: "Abel";
+}
+button{
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-color: #C850C0;
+}
+
+button:hover {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+   }
+   
+   @keyframes slidernbw {
+    to {
+     background-position: 20vw;
+    }
+   }

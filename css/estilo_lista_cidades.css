@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body{
+    background-color: aqua;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Alkatra";
+}
+
+h2{
+    font-size: 35px;
+}
+
+ol,ul,dl{
+    font-size: 25px;
+}
+
+img{
+    border-radius: 30px;
+    border-color: blue;
+    border-style: dashed;
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+button{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-color: #00C9FF;
+
+}

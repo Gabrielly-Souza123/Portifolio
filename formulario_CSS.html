@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este site é um formulario">
+    <meta name="keywords" content="Formulario">
+    <meta name="author" content="Gabrielly Machado">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo_formulario.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="" method="get">
+        <label for="nome">Seu nome:</label>
+        <input type="text" name="nome" id="nome"> <br> 
+        <!--o id é o nome que quiser -->
+        <label for="idade">Sua Idade:</label>
+        <input type="number" name="idade" id="idade" min="15" max="99" step="1"><br> 
+
+        <label for="dataNascimento">Sua Data de nascimento</label>
+        <input type="date" name="dataNascimento" id="dataNascimento"><br> 
+
+        <label for="email">Seu email</label>
+        <input type="email" name="email" id="email"><br> 
+
+        <label for="senha">Sua senha</label>
+        <input type="password" name="senha" id="senha"> <br> 
+        
+        <p> 
+            <label>Sexo:</label> <br>
+            <input type="radio" name="sexo" id="masc" value="masc"/>
+            <label for="masc">Masculino</label> 
+            <input type="radio" name="sexo" id="fem" value="fem"/>
+            <label for="fem">Feminino</label>
+            <input type="radio" name="sexo" id="ind" value="ind" checked /> 
+            <!--checked é colocado para aparecer no site ja selecionado algo-->
+            <label for="ind">Prefiro não responder</label><br> 
+        </p>
+
+            <!-- radio é valor unico e obrigatorio-->
+
+        <p> 
+            <label>Aceito contato via:</label> <br>
+            <input type="checkbox" name="tipo-contato" id="c-sms" value="sms"/>
+            <label for="c-sms">SMS</label>
+            <input type="checkbox" name="tipo-contato" id="c-whatsapp" value="c-whatsapp"/>
+            <label for="c-whatsapp">Whatsapp</label>
+            <input type="checkbox" name="tipo-contato" id="c-email" value="c-email"/>
+            <label for="c-emai">Email</label> <br> 
+        </p>
+            <!-- checkboxx é livre para selecionar somente um ou varios valores-->
+
+            <!--Select serve para validação para ser passada corretamente a informação -->
+        <p> 
+            <label for="civil">Estado Civil</label>
+            <select name="civil" id="civil">
+                <option value=""selected disabled>selecione uma opção</option>
+                <option value="s">Solteiro</option>
+                <option value="c">Casado</option>
+                <option value="v">Viuvo</option>
+                <option value="d">Divorciado</option>
+                <option value="us">União Estável</option>
+            </select> 
+        </p>
+
+            <!--Para isso que serve o optgroup-->
+
+        <p> 
+            <label for="estados"> Estados do Brasil</label>
+            <select name="estados" id="estados">
+            <optgroup label="Região norte">
+                <option value="am">Amazonas</option>
+                <option value="rr">Roraima</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="ma">Maranhão</option>
+                <option value="pi">Piaui</option>
+            </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <input type="reset" value="Apagar"> 
+            <input type="submit" name="enviar" id="enviar">
+        </p>
+
+        <p>
+            <Label for="outros">Outras Informações</Label>
+            <textarea
+                name="outros"
+                id="outros"
+                cols="30"
+                rows="10"
+                maxlength="50"
+            ></textarea> 
+        </p>
+
+
+    </form>
+</body>
+</html>
